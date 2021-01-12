@@ -8,7 +8,7 @@
             align-items: center;
 
             top: 35%; /* following 4 lines aligns at center with absolute position */
-            left: 47%;
+            left: 40%;
             margin-top: -50px;
             margin-left: -100px;
         }
@@ -82,8 +82,7 @@
 
         .central-buttons a:hover {
             background-color: #f8f9fa;
-            border: 2px solid #f2f2f2;
-            border-radius: 4px;
+            border: 1px solid #f2f2f2;
         }
 
         .french-anchor {
@@ -93,6 +92,53 @@
 
         .french-anchor:hover {
             text-decoration: underline;
+        }
+
+        .search-wrapper {
+            position: relative;
+            margin: 30px 0px;
+        }
+
+        .search-wrapper img {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 2%;
+            bottom: 27%;
+
+        }
+
+        .search-bar {
+            padding: 15px;
+            margin-top: 13px;
+            margin-right: 20px;
+            font-size: 14px;
+            width: 600px;
+            border-radius: 24px;
+            box-shadow: none;
+            padding-left: 50px;
+        }
+
+        .tab-button {
+            background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+            width: 20px;
+            height: 20px;
+            background-position: -132px -38px;
+            margin-top: 2px;
+            margin-left: 5px;
+        }
+
+        #sign-in {
+            color: #fff;
+        }
+
+        #sign-in:hover {
+            text-decoration: none;
+        }
+
+        .sign-in {
+            background-color: #4387fd;
+            margin: 2px 8px;
         }
 
 
@@ -111,6 +157,8 @@
                 <ul style="float: right;" class="top-right">
                     <li><a href="">Gmail</a></li>
                     <li><a href="">Images</a></li>
+                    <li><a class="tab-button" href="" role="button"></a></li>
+                    <li><a class="sign-in" id="sign-in" href="" role="button">Sign In</a></li>
                 </ul>
             
             </div>
@@ -119,14 +167,15 @@
         <main>
             <div class="central">
                 <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272" height="92">
-                <div class="search-bar">
-                    <input id="search-bar" type="text">
+                <div class="search-wrapper">
+                    <input class="search-bar" type="text">
+                    <img class="magnifying-glass" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png">
                 </div>
                 <div class="central-buttons">
                     <a href="">Google Search</a>
-                    <a href="">I'm Feeling Lucky</a>
+                    <a href="https://github.com/Zhele134" target="_blank">I'm Feeling Lucky</a>
                 </div>
-                <p>Google offered in: <a href="" class="french-anchor">Français</a></p>
+                <p style="font-family: Arial, sans-serif;">Google offered in: <a href="" class="french-anchor">Français</a></p>
             </div>
         </main>
 
