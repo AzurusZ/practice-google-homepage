@@ -1,0 +1,143 @@
+.central {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    top: 35%; /* following 4 lines aligns at center with absolute position */
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.top-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navbar li {
+    float: left;
+}
+
+.top-navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #70757a;
+    font-family: arial, sans-serif;
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.bottom-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-left li {
+    float: left;
+}
+
+.bottom-right li {
+    float: right;
+}
+
+.bottom-navbar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    margin-right: 15px;
+    color: #70757a;
+    font-family: arial, sans-serif;
+}
+
+.central-buttons a{
+    display: inline-block;
+    padding: 15px 10px;
+    margin: 20px 25px;
+    text-decoration: none;
+    color: #3c4043;
+    background-color: #f2f2f2;
+    font-family: arial, sans-serif;
+}
+
+.central-buttons a:hover {
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+}
+
+.french-anchor {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.french-anchor:hover {
+    text-decoration: underline;
+}
+
+.search-wrapper {
+    position: relative;
+    margin: 30px 0px;
+}
+
+.search-wrapper img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 2%;
+    bottom: 27%;
+
+}
+
+.search-bar {
+    padding: 15px;
+    margin-top: 13px;
+    margin-right: 20px;
+    font-size: 14px;
+    width: 600px;
+    border-radius: 24px;
+    box-shadow: none;
+    padding-left: 50px;
+}
+
+.tab-button {
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    width: 20px;
+    height: 20px;
+    background-position: -132px -38px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+#sign-in {
+    color: #fff;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+}
+
+.sign-in {
+    background-color: #4387fd;
+    margin: 2px 8px;
+}
+
+
+
+
